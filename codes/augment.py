@@ -15,10 +15,10 @@ data_gen = ImageDataGenerator(
 
 # Assuming you have images for training in a folder named 'dataset/train'
 # and the images are grouped in subfolders by class (e.g., 'faces', 'no_faces')
-train_data_dir = 'C:/Users/suyas/OneDrive-stevens.edu/Desktop/Applied Machine Learning/Final_Project/images'
+train_data_dir = r'C:\Users\suyas\OneDrive-stevens.edu\Desktop\AAI695\AAI695\images'
 
 # The directory where you want to save the augmented images
-save_dir = 'C:/Users/suyas/OneDrive-stevens.edu/Desktop/Applied Machine Learning/Final_Project/augmented_images'
+save_dir = r'C:\Users\suyas\OneDrive-stevens.edu\Desktop\AAI695\AAI695\images\augmented_images'
 
 # Iterate over each image and transform it
 for img_file in os.listdir(train_data_dir):
